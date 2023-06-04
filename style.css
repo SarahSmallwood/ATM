@@ -1,0 +1,99 @@
+.body{
+    padding:3em;
+
+}
+.atmContainer{
+    border: solid black;
+    border-radius: 22px;
+    border-width: 20px;
+    padding-bottom: 20px;
+}
+
+.atmMain{
+    border:solid black;
+    height:100px;
+    padding-top:1.5em;
+    border-radius:22px;
+    background-color:slategray;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.navContainer{
+    border-radius: 22px;
+    height: 200px;
+}
+.screen{
+    border:solid black;
+    background-color: darkslategrey;
+    height:18vh;
+    margin:.5em;
+    border-radius:22px;
+    padding:1em;
+    text-align:right;
+    color:white;
+    font-size:32px;
+    margin-bottom:.5em;
+    margin-left: 300px;
+}
+.sideNav{
+    border: solid black;
+    border-width: 15px;
+    width: 120%;
+}
+.atmRow{
+    /* border:solid blue; */
+    border-width:2px;
+    margin:1em;
+    height:8vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+.key{
+    border:solid black;
+    /* border-width:.2px; */
+    width:20%;
+    border-radius:22px;
+    text-align:center;
+    font-size: 20px;
+    padding-top:15px;
+    background-color: slategray;
+}
+.key:hover{
+    border:solid black;
+    width:20%;
+    border-radius:22px;
+    text-align:center;
+    font-size: 30px;
+    padding-top:15px;
+    background-color: darkslategrey;
+    color:white;
+}
+.title{
+    text-align:center;
+    /* border: solid silver; */
+    display: flex;
+    justify-content: center;
+}
+.num{
+    border:solid black;
+    /* border-width:.2px; */
+    width: 30%;
+    border-radius: 40px;
+    text-align:center;
+    font-size:25px;
+    padding-top:22px;
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+
+.num:hover{
+    border:solid black;
+    width:25%;
+    border-radius:26px;
+    text-align:center;
+    font: size 25px;
+    padding-top:15px;
+    background-color: darkslategray;
+    color:white;
+}
