@@ -26,20 +26,25 @@
 .screen{
     border:solid black;
     background-color: darkslategrey;
-    height:18vh;
+    height:40vh;
     margin:.5em;
     border-radius:22px;
     padding:1em;
     text-align:right;
     color:white;
-    font-size:32px;
+    font-size:25px;
     margin-bottom:.5em;
-    margin-left: 300px;
+    width: 350px;
+    margin-left: 45%
 }
 .sideNav{
     border: solid black;
     border-width: 15px;
-    width: 120%;
+    width: 40%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0%;
 }
 .atmRow{
     /* border:solid blue; */
